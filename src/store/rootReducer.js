@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import simpleReducer from '../views/state/simpleReducer';
+import main from '../views/state/reducers';
 
 export default combineReducers({
-  simpleReducer
+  main,
 });

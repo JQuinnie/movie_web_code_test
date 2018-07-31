@@ -1,33 +1,30 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { simpleAction } from './state/simpleAction'
+import { getAllMovies } from './state/actions'
 
 class Home extends Component {
-  simpleAction = (event) => {
-    this.props.simpleAction();
+  componentDidMount() {
+    this.props.getAllMovies()
   }
 
   render() {
     return (
       <div>
         <h1 className="title">Home</h1>
-        <pre>
-          {
-            JSON.stringify(this.props.simpleReducer)
-          }
-        </pre>
-        <button onClick={this.simpleAction}>Test Redux</button>
+        { this.props.movies.forEach(movie => {
+          <div>{movie.title}</div>
+        })}
       </div>
     )
   }
 }
 
 const mapStateToProps = state => ({
-  ...state
+  movies: state.main.movies,
 })
 
 const mapDispatchToProps = dispatch => ({
-  simpleAction: () => dispatch(simpleAction())
+  getAllMovies: () => dispatch(getAllMovies())
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Home)
