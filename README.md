@@ -24,9 +24,7 @@ For this application, you will be building a UI for viewing movies and related f
     >```npm install```
 4. Run the web server:
     >```npm start```
-5. In another terminal, run css watcher to compile your sass code
-    >```npm run watch-css```
-6. Test the site in a browser by going to ```http://localhost:3000/```
+5. Test the site in a browser by going to ```http://localhost:3000/```
 
 ### User Stories
 Use the [comps](src/web_test_comps.pdf) `src/web_test_comps.pdf` as a guide for the html and user experience for each story.
