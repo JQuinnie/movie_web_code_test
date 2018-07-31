@@ -11,8 +11,8 @@ class Home extends Component {
     return (
       <div>
         <h1 className="title">Home</h1>
-        { this.props.movies.forEach(movie => {
-          <div>{movie.title}</div>
+        { this.props.movies.map(movie => {
+          return (<div>{movie.Title}</div>)
         })}
       </div>
     )

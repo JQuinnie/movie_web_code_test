@@ -6,7 +6,7 @@ export default (state = initialState, action) => {
   switch (action.type) {
     case 'ALL_MOVIES_LOADED':
     return {
-      movies: action.payload.movies,
+      movies: action.payload.movies.Search,
     }
     default:
     return state

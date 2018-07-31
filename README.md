@@ -42,7 +42,6 @@ Detail: `http://www.omdbapi.com/?i=[imdbID]&apikey=c32d368e`
         - The Movies data should be retrieved from the following REST endpoint ```http://www.omdbapi.com/?s=[term]&apikey=c32d368e```
         - Each Movie element displays it's poster and movie name in the list.
         - Each of the Movies displayed in the list should link to Movies detail view (see below).
-
         <br>
 
 - As a consumer, I would like to click on a Movie from the list view and see its full contents.
