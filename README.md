@@ -56,10 +56,10 @@ Movie Details: `http://www.omdbapi.com/?i=[imdbID]&apikey=c32d368e`
 
         <br>
 
-- As a consumer, I would like to sort the Movie list by genre.
+- As a consumer, I would like to find Movies by genre.
     - Acceptance Criteria:
-        - Select input with genre options.
-        - List updates according to selected option.
+        - Use `http://localhost:3001/genres/all` to get list of genres to populate the genre select options.
+        - Use `http://localhost:3001/movies/bygenre/:genreId` to get Movies for a given genre id.
 
         <br>
 
