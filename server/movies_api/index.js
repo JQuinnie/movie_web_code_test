@@ -2,11 +2,14 @@
 
 const express = require('express')
 const sqlite3 = require('sqlite3').verbose()
+const cors = require('cors')
 
 const genres = require('./routes/genres')
 const movies = require('./routes/movies')
 
 const app = express()
+
+app.use(cors())
 
 let moviesDB = new sqlite3.Database('./movies_api/db/movies.db', sqlite3.OPEN_READONLY, err => {
   if (err) {
