@@ -6,8 +6,6 @@ import { ConnectedRouter as Router } from 'react-router-redux'
 import configureStore, { history } from './store';
 import Routes from './Routes';
 
-import './utils/index.css';
-
 ReactDOM.render(
   <Provider store={configureStore()}>
     <Router history={history}>
