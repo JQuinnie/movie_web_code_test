@@ -1,6 +1,8 @@
 import React from 'react';
 import { withRouter, Switch, Route } from 'react-router-dom';
-import App from './views/App';
+
+import App from './components/App';
+
 import Home from './views/Home';
 
 const Routes = routeProps => (
