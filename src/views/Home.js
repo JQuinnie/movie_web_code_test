@@ -10,10 +10,11 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h1 className="title">Home</h1>
-        { this.props.movies.map(movie => {
-          return (<div>{movie.title}</div>)
-        })}
+        {this.props.movies.map(movie => (
+          <div>
+            {movie.title}
+          </div>
+        ))}
       </div>
     )
   }

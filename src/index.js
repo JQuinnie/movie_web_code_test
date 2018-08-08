@@ -2,11 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux'
 import { ConnectedRouter as Router } from 'react-router-redux'
-import configureStore, { history } from './store';
-import registerServiceWorker from './registerServiceWorker';
-import Routes from './Routes';
 
-import './index.css';
+import configureStore, { history } from './store';
+import Routes from './Routes';
 
 ReactDOM.render(
   <Provider store={configureStore()}>
@@ -15,6 +13,4 @@ ReactDOM.render(
     </Router>
   </Provider>,
   document.getElementById('root'),
-)
-
-registerServiceWorker();
+);
