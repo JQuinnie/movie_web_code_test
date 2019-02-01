@@ -39,7 +39,7 @@ Start client app:
 
 ## Next Steps
 
-In the [src/stories/](src/stories/) folder there are several stories (tasks) to complete. Each folder contains a README describing the task and any other information you might need. Please complete them in order.
+In the [stories/](stories/) folder there are several stories (tasks) to complete. Each folder contains a README describing the task and any other information you might need. Please complete them in order.
 
 **Note 1:** You aren't expected to finish the list of stories
 **Note 2:** Feel free to use outside resources, eg Google, ask us questions, etc
