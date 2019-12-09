@@ -1,4 +1,4 @@
-import MoviesService from '../../services/movies'
+import MoviesService from '../services/movies'
 
 export const getAllMovies = () => dispatch => {
   MoviesService.getAllMovies()

@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux'
-import { ConnectedRouter as Router } from 'react-router-redux'
+import { BrowserRouter as Router } from "react-router-dom";
 
-import configureStore, { history } from './store';
+import configureStore from './redux';
 import Routes from './Routes';
 
 ReactDOM.render(
   <Provider store={configureStore()}>
-    <Router history={history}>
+    <Router>
       <Routes />
     </Router>
   </Provider>,

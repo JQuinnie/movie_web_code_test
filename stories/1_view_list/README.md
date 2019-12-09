@@ -7,7 +7,7 @@ The homepage of our app should display movies in a nice visual list, currently i
 
 Acceptance Criteria:
   1. The view should be served from the default route `http://localhost:3000/`.
-  2. Each movie displays it's poster image and name.
+  2. Each movie displays its poster image and name.
   3. The name is centered below the poster.
   4. The movies display in a grid.
   5. No need to include the navigation section or hover behavior.

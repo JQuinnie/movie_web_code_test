@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getAllMovies } from './state/actions'
+import { getAllMovies } from '../redux/actions'
 
 class Home extends Component {
   componentDidMount() {
@@ -11,7 +11,7 @@ class Home extends Component {
     return (
       <div>
         {this.props.movies.map(movie => (
-          <div>
+          <div key={movie.imdbId}>
             {movie.title}
           </div>
         ))}
