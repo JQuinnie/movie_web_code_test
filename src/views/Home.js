@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getAllMovies } from '../redux/actions'
+import { getAllMovies } from '../redux/actions';
 
 class Home extends Component {
   componentDidMount() {
