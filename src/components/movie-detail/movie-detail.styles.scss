@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0px;
+
+  .poster-image {
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .movie-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+
+    .movie-detail-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 32px;
+      font-weight: 900;
+
+      .title {
+        margin: 0px;
+        text-align: left;
+      }
+    }
+
+    .movie-detail-sub-header {
+      color: grey;
+    }
+
+    .sub-header {
+      font-size: 20px;
+      font-weight: 900;
+      padding: 5px;
+      margin-top: 20px;
+    }
+
+    .sub-content {
+      font-size: 16px;
+      text-align: left;
+      padding: 5px;
+      margin-bottom: 20px;
+    }
+  }
+}
