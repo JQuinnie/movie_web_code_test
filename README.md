@@ -47,3 +47,15 @@ In the [stories/](stories/) folder there are several stories to complete. Each f
 
 **Note 1:** You aren't expected to finish the list of stories
 **Note 2:** Feel free to use outside resources, eg Google, api documentation, etc.
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+## Code Test Comments
+
+- In the alloted time, I was only able to get story 2, #7 the 'return to results' button functionality itegration.
+- It was particularly difficult working with state (on location and history) as I have not done that with Redux prior.
+- I'd wish I had more time to finish out the stories, set up some tests and also complete more SASS (going down the styling rabbithole...). I integrated Bootstrap in some areas but would have liked to try out Tailwind CSS.
+
+In general, my background is in Backend Server Node development at Aetna (microservices, Node.js, CVS API integratios, AWS, Docker, Jenkins promotions and deployment, CI) and have only had a brief encounter with React.js in school. A lot of the JavaScript and OOP are familiar to me but I didn't have enough time to dig deep into working with Redux. But, I am confident that I can get up to speed pretty quickly with React + Redux as the Front End Framework when I am given the chance to work in that environment on a daily basis. Working on the Front End team at Aetna will allow me to fill in my career development gaps by understanding the intricacies of the client side and the requirements / needs that go with it.

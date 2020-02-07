@@ -1,0 +1,14 @@
+.header {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 10%;
+  background-color: #99e7d0;
+
+  .header-title {
+    font-weight: 900;
+    font-size: 2em;
+    margin: .67em 0;
+  }
+}
